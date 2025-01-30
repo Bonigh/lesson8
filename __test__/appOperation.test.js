@@ -13,3 +13,8 @@ test("test substraction", ()=>{
     expect(appOperations.substract(15,5)).toBe(10);
 
 })
+
+test("test divide", ()=>{
+    expect(appOperations.divide(15,5)).toBe(3);
+
+})
