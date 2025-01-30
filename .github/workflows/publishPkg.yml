@@ -19,7 +19,7 @@ jobs:
                 scope: '@bonigh'
             - run: npm ci
             - run: nmp publish
-              env:
+               env:
                 NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
